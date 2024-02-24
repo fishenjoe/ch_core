@@ -1,0 +1,10 @@
+
+
+# Load default preset
+imports:
+  - { resource: "EXT:ch_core/Configuration/RTE/ch_default.yaml" }
+
+editor:
+  config:
+    # disable 'showblocks' button as default
+    startupOutlineBlocks: false

@@ -1,0 +1,42 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  CH\CHCore\:
+    resource: '../Classes/*'
+
+  CH\CHCore\Converter\TsToJsConverter:
+    public: true
+
+  CH\CHCore\Conditions\ConditionProvider:
+    public: true
+
+  CH\CHCore\DataProcessing\VistaProcessor:
+    public: true
+
+  CH\CHCore\Elements\Vista\Vista:
+    public: true
+
+  CH\CHCore\Generator\HrefLangGenerator:
+    tags:
+      - name: event.listener
+        identifier: 'ch_core/hreflangGenerator'
+        after: 'typo3-seo/hreflangGenerator'
+        event: TYPO3\CMS\Frontend\Event\ModifyHrefLangTagsEvent
+
+  CH\CHCore\EventListeners\BrowserFallbackEventListener:
+    tags:
+      - name: event.listener
+        identifier: 'chBrowserFallbackEventListener'
+        event: SFC\Staticfilecache\Event\CacheRuleFallbackEvent
+
+  CH\CHCore\Generator\MetaTagGenerator:
+    public: true
+
+  CH\CHCore\Generator\SchemaOrgGenerator:
+    public: true
+
+  CH\CHCore\Generator\RobotsGenerator:
+    public: true

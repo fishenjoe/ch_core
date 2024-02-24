@@ -1,0 +1,73 @@
+####
+# ch RTE DEFAULTS FOR ADMINS, CHIEF EDITORS, ...
+# Example of what CKEditor can all bring
+# >> copied from rte_ckeditor extension <<
+###
+
+# Load default processing options
+imports:
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Processing.yaml" }
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml" }
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml" }
+
+# Add configuration for the editor
+# For complete documentation see http://docs.ckeditor.com/#!/api/CKEDITOR.config
+editor:
+  config:
+    contentsCss:
+      - "EXT:rte_ckeditor/Resources/Public/Css/contents.css"
+      - "EXT:ch_core/Resources/Public/Css/Rte/contents.css"
+
+    # only allow the following tags in the format select box
+    format_tags: "p"
+
+    # create a custom toolbar with various items grouped together
+    toolbarGroups:
+      - { name: clipboard, groups: [undo, clipboard] }
+      - { name: editing,   groups: [find, selection, spellchecker] }
+      - { name: links, groups: [ links ] }
+      - { name: insert }
+      - { name: tools }
+      - { name: table }
+      - { name: tabletools }
+      - { name: document,  groups: [ mode, document, doctools ] }
+      - { name: others }
+      - "/"
+      - { name: styles }
+      - { name: basicstyles, groups: [ basicstyles, align, cleanup ] }
+      - { name: paragraph,   groups: [ list, indent, blocks, align ] }
+
+    # add custom classes to justify containers
+    justifyClasses:
+      - "T3-rte-align--left"
+      - "T3-rte-align--center"
+      - "T3-rte-align--right"
+      - "T3-rte-align--justify"
+
+    # activate additional plugins
+    # list of plugins:  https://ckeditor.com/addons/plugins/all
+    extraPlugins:
+      - justify
+      - find
+      - showblocks
+
+    # deactivate plugins
+    # HINT: I am not sure, but I think TYPO3 doesn't work well with this plugin
+    # and if you need it anyway, you have to install a custom one.
+    removePlugins:
+      - image
+
+    # remove some specific buttons from the toolbar
+    removeButtons:
+      - Styles
+
+    # enable 'showblocks' button as default
+    startupOutlineBlocks: true
+
+# Allow s and u tag
+# HINT: I don't know for what this is,
+# but we should keep it that way.
+processing:
+  allowTags:
+    - s
+    - u

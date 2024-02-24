@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+    <file source-language="en" datatype="plaintext" product-name="ch_core">
+        <!--
+        ################################  ATTENTION  ################################
+        ENGLISH TRANSLATIONS
+        ### ### ###
+        DON'T USE THIS FILE (and any other xlf-Files) FOR WEB TRANSLATIONS.
+        USE THE CONSTANTS FOR THIS PURPOSE.
+        (There exist now a custom viewhelper to achieve this in fluid)
+        ### ### ###
+        THE TRANSLATIONS FOR THE CUSTOM ELEMENTS/PLUGINS WILL BE STORED HERE, THOUGH.
+        #############################################################################
+        -->
+        <body>
+            <!-- GLOBALS -->
+            <trans-unit id="global.tab.chsettings">
+                <source>CH Settings</source>
+            </trans-unit>
+            <trans-unit id="global.tab.chelements">
+                <source>CH special elements</source>
+            </trans-unit>
+            <trans-unit id="global.text.required">
+                <source>Required</source>
+            </trans-unit>
+            <trans-unit id="global.text.optional">
+                <source>Optional</source>
+            </trans-unit>
+            <trans-unit id="global.text.enabled">
+                <source>enabled</source>
+            </trans-unit>
+            <trans-unit id="global.text.disabled">
+                <source>disabled</source>
+            </trans-unit>
+
+            <!-- VISTA SWITCH -->
+            <trans-unit id="vista.switch.label">
+                <source>Vista Switch</source>
+            </trans-unit>
+            <trans-unit id="vista.switch.description">
+                <source>The Vista Switch is the central place where you can control the overall vista output throughout the whole website</source>
+            </trans-unit>
+            <trans-unit id="vista.switch.categories_selection">
+                <source>Select the desired vista category</source>
+            </trans-unit>
+
+            <!-- VISTA ELEMENT -->
+            <trans-unit id="vista.element.label">
+                <source>Vista Element</source>
+            </trans-unit>
+            <trans-unit id="vista.element.description">
+                <source>The Vista Element hold a bunch of media items (images or videos) and assign them to a specific category.</source>
+            </trans-unit>
+            <trans-unit id="vista.element.category_selection">
+                <source>Select a vista category</source>
+            </trans-unit>
+            <trans-unit id="vista.element.items">
+                <source>Vista elements</source>
+            </trans-unit>
+
+            <!-- TABLES ~~ sys_file_reference -->
+            <trans-unit id="table.sys_file_reference.crop.variants.desktop">
+                <source>Desktop</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.crop.variants.tablet">
+                <source>Tablet</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.crop.variants.mobile">
+                <source>Mobile</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes">
+                <source>Additional Video-Tag attributes</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.descr">
+                <source>add the desired video tag attributes, e.g. for a cinemagraph, the attributes 'autoplay',
+                    'loop', 'muted' and 'playsinline' are needed. Only applicable on local videos.</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.autoplay">
+                <source>Autoplay</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.autoplay.desc">
+                <source>'Autoplay' plays the video automatically without any user action</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.loop">
+                <source>Loop</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.loop.desc">
+                <source>'Loop' plays the video over and over again</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.muted">
+                <source>Muted</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.muted.desc">
+                <source>'Muted' plays the video without any sound</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.controls">
+                <source>Controls</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.controls.desc">
+                <source>'Controls' add some control features beneath the video, like buttons for start/stop or fullscreen mode</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.playsinline">
+                <source>Playsinline</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.playsinline.desc">
+                <source>'Playsinline' plays the video in the browser directly, without going into Fullscreen mode (foremost for iOS devices)</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_fallback">
+                <source>Video fallback</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_fallback.desc">
+                <source>Define here a fallback video if the upper one is more of a modern and not well-supported file format, and you want to support older browsers too. Only applicable on local videos.</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_sources">
+                <source>Other video resolutions</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_sources.desc">
+                <source>Define here different files for tablet (max-width: 1024px) and mobile (max-width: 767px) resolution, which then get used instead of the main one, respectively. Only applicable on local videos.</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_sources_resolution">
+                <source>Resolution</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_sources_resolution.tablet">
+                <source>Tablet (max-width: 1024px)</source>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_sources_resolution.phone">
+                <source>Phone (max-width: 767px)</source>
+            </trans-unit>
+
+            <!-- TABLES ~~ Pages -->
+            <trans-unit id="table.pages.columns.scroll2Content">
+                <source>Auto-scroll to content section</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.scroll2Content.descr">
+                <source>if enabled it will scroll to the content section automatically on page load</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.disableQuickrequest">
+                <source>Disable quickrequest form</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.disableQuickrequest.descr">
+                <source>if enabled the quickrequest form will not be rendered in the frontend</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.hideInMobileMenu">
+                <source>Hide page in mobile menus</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.hideInMobileMenu.descr">
+                <source>if enabled the current page is not listed in the mobile menu</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.disableHeritableContent">
+                <source>Disable heritable content for this page</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.disableHeritableContent.descr">
+                <source>if enabled  heritable content will not be rendered in the frontend</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.includeInSitemapMenu">
+                <source>Include page in sitemap menu</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.includeInSitemapMenu.descr">
+                <source>Include this page in the sitemap menu, even if 'hide in menu' is active. Note: The `sitemap.xml` is not meant here, but the one in the credits menu.</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.includeInSitemapMenuChildren">
+                <source>Include children of this page in sitemap menu</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.includeInSitemapMenuChildren.descr">
+                <source>Include the children of this page in the sitemap menu, even if 'hide in menu' is active. Note: The `sitemap.xml` is not meant here, but the one in the credits menu.</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.customField">
+                <source>Custom field</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.customField.descr">
+                <source>this field can be used to add custom piece of information to the current page so that you can use it as you desire (Hint: this field has a limit of 128 characters)</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.rating.cur_value">
+                <source>AggregateRating: current value</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.rating.cur_value.descr">
+                <source>set a value which is the average value of the rating</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.rating.max_value">
+                <source>AggregateRating: maximum value</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.rating.max_value.descr">
+                <source>set the maximal value of the rating</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.rating.amount">
+                <source>AggregateRating: amount of ratings</source>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.rating.amount.descr">
+                <source>set the amount of all ratings</source>
+            </trans-unit>
+
+            <trans-unit id="table.pages.palettes.misc">
+                <source>Miscellaneous</source>
+            </trans-unit>
+            <trans-unit id="table.pages.palettes.seo">
+                <source>SEO</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

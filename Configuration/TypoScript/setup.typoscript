@@ -1,0 +1,6 @@
+plugin.tx_ch_core {
+    excludeConstants := addToList(styles)
+    excludeConstants := addToList(module)
+    excludeConstants := addToList(plugin)
+    excludeConstants := addToList(private)
+}

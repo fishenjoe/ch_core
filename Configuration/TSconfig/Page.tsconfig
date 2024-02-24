@@ -1,0 +1,31 @@
+# ##########################################
+#             CONTENT ELEMENTS
+# ##########################################
+
+# register elements
+mod.wizards.newContentElement.wizardItems {
+    ch {
+        header = LLL:EXT:ch_core/Resources/Private/Language/locallang.xlf:global.tab.chelements
+        elements {
+            # vista element
+            ch_vista_switch {
+                iconIdentifier = tx-chcore-default
+                title = LLL:EXT:ch_core/Resources/Private/Language/locallang.xlf:vista.switch.label
+                description = LLL:EXT:ch_core/Resources/Private/Language/locallang.xlf:vista.switch.description
+                tt_content_defValues {
+                    CType = ch_vista_switch
+                }
+            }
+            ch_vista_element {
+                iconIdentifier = tx-chcore-default
+                title = LLL:EXT:ch_core/Resources/Private/Language/locallang.xlf:vista.element.label
+                description = LLL:EXT:ch_core/Resources/Private/Language/locallang.xlf:vista.element.description
+                tt_content_defValues {
+                    CType = ch_vista_element
+                }
+            }
+        }
+        show := addToList(ch_vista_switch)
+        show := addToList(ch_vista_element)
+    }
+}

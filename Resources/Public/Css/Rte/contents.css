@@ -1,0 +1,33 @@
+/*
+ * RTE styles (ckeditor)
+ */
+
+/** show_blocks plugin **/
+.cke_show_blocks strong {
+    border: 1px dashed purple;
+}
+.cke_show_blocks em {
+    border: 1px dashed blue;
+}
+.cke_show_blocks u {
+    border: 1px dashed green;
+}
+.cke_show_blocks s {
+    border: 2px solid red;
+    color: red;
+    font-weight: bold;
+}
+
+/** justify plugin **/
+.T3-rte-align--left {
+  text-align: left;
+}
+.T3-rte-align--center {
+  text-align: center;
+}
+.T3-rte-align--right {
+  text-align: right;
+}
+.T3-rte-align--justify {
+  text-align: justify;
+}

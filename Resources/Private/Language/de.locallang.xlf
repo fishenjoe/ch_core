@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+    <file source-language="en" target-language="de" datatype="plaintext" product-name="ch_core">
+        <!--
+        ################################  ATTENTION  ################################
+        GERMAN TRANSLATIONS
+        ### ### ###
+        DON'T USE THIS FILE (and any other xlf-Files) FOR WEB TRANSLATIONS.
+        USE THE CONSTANTS FOR THIS PURPOSE.
+        (There exist now a custom viewhelper to achieve this in fluid)
+        ### ### ###
+        THE TRANSLATIONS FOR THE CUSTOM ELEMENTS/PLUGINS WILL BE STORED HERE, THOUGH.
+        #############################################################################
+        -->
+        <body>
+            <!-- GLOBALS -->
+            <trans-unit id="global.tab.chsettings">
+                <target>CH Einstellungen</target>
+            </trans-unit>
+            <trans-unit id="global.tab.chelements">
+                <target>CH Spezialelemente</target>
+            </trans-unit>
+            <trans-unit id="global.text.required">
+                <target>Erforderlich</target>
+            </trans-unit>
+            <trans-unit id="global.text.enabled">
+                <target>aktiviert</target>
+            </trans-unit>
+            <trans-unit id="global.text.disabled">
+                <target>deaktiviert</target>
+            </trans-unit>
+
+            <!-- VISTA SWITCH -->
+            <trans-unit id="vista.switch.label">
+                <target>Vista Switch</target>
+            </trans-unit>
+            <trans-unit id="vista.switch.description">
+                <target>Der Vista Switch ist die zentrale Schnittstelle, wo die globale Ausgabe der Vista Elemente eingestellt werden kann.</target>
+            </trans-unit>
+            <trans-unit id="vista.switch.categories_selection">
+                <target>Gewünschte Kategorien auswählen</target>
+            </trans-unit>
+
+            <!-- VISTA ELEMENT -->
+            <trans-unit id="vista.element.label">
+                <target>Vista Element</target>
+            </trans-unit>
+            <trans-unit id="vista.element.description">
+                <target>Das Vista Element beinhaltet eine Anzahl von Media Elementen (Bilder oder Videos) und stellen den Bezug zu einer Kategorie her.</target>
+            </trans-unit>
+            <trans-unit id="vista.element.category_selection">
+                <target>Eine Kategorie auswählen</target>
+            </trans-unit>
+            <trans-unit id="vista.element.items">
+                <target>Vista Elemente</target>
+            </trans-unit>
+
+            <!-- TABLES ~~ sys_file_reference -->
+            <trans-unit id="table.sys_file_reference.ch_video_attributes">
+                <target>Zusätzliche Video-Tag Attribute</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.descr">
+                <target>fügt die gewünschten Video-Tags hinzu, z.B. für ein Cinemagraph, sind die Attribute 'autoplay',
+                    'loop', 'muted' und 'playsinline' notwendig. Nur anwendbar an lokale Videos.</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.autoplay">
+                <target>Autoplay</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.autoplay.desc">
+                <target>'Autoplay' spielt das Video automatisch ohne das der Benutzer interagieren muss</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.loop">
+                <target>Loop</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.loop.desc">
+                <target>'Loop' spielt das Video als Schleife wieder</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.muted">
+                <target>Muted</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.muted.desc">
+                <target>'Muted' spielt das Video ohne Sound</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.controls">
+                <target>Controls</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.controls.desc">
+                <target>'Controls' fügt Kontrollfunktionen unter dem Video hinzu, z.B. die Buttons für Start/Stop oder Vollbildmodus</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.playsinline">
+                <target>Playsinline</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_attributes.playsinline.desc">
+                <target>'Playsinline' spielt das Video im browser direkt, ohne in den Vollbildmodus zu wechseln (vor allem für iOS-Geräte)</target>
+            </trans-unit>
+
+            <trans-unit id="table.sys_file_reference.ch_video_fallback">
+                <target>Video Alternative (Fallback)</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_fallback.desc">
+                <target>Definiere hier ein Alternativ-Video (Fallback), wenn das übergeordnete Video mehr ein modernes bzw. nicht gut unterstütztes Datenformat ist und man auch ältere Browser unterstützen möchte. Nur anwendbar an lokale Videos.</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_sources">
+                <target>Andere Video Auflösungen</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_sources.desc">
+                <target>Definiere hier die versch. Dateien für Tablet (max-width: 1024px) und Mobile (max-width: 767px) Auflösungen, welche dann anstatt der Hauptdatei verwendet werden. Nur anwendbar an lokale Videos.</target>
+            </trans-unit>
+            <trans-unit id="table.sys_file_reference.ch_video_sources_resolution">
+                <target>Auflösung</target>
+            </trans-unit>
+
+            <!-- TABLES ~~ Pages -->
+            <trans-unit id="table.pages.columns.scroll2Content">
+                <target>Autom. scrollen zum Inhaltsbereich</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.scroll2Content.descr">
+                <target>wenn aktiviert wird beim Seitenaufruf automatisch zum Seiteninhalt gescrollt</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.disableQuickrequest">
+                <target>Schnellanfrage Formular deaktivieren</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.disableQuickrequest.descr">
+                <target>wenn aktiviert wird das Schnellanfrage-Formular nicht im Frontend ausgegeben</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.hideInMobileMenu">
+                <target>Seite im mobilen Menu ausblenden</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.hideInMobileMenu.descr">
+                <target>wenn aktiviert wird die aktuelle Seite nicht im mobilen Menu gelistet</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.disableHeritableContent">
+                <target>Vererbbaren Inhalt ausblenden</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.disableHeritableContent.descr">
+                <target>wenn aktiviert wird der vererbbaren Inhalt nicht ausgegeben</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.includeInSitemapMenu">
+                <target>Einschließen der Seite im Sitemap-Menu</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.includeInSitemapMenu.descr">
+                <target>Schließt die Seite im Sitemap-Menu ein, auch wenn 'im Menu versteckt' aktiv ist. INFO: Hier ist nicht die `sitemap.xml` gemeint, sondern jenes im Credits-Menu.</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.includeInSitemapMenuChildren">
+                <target>Einschließen der Unterseiten im Sitemap-Menu</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.includeInSitemapMenuChildren.descr">
+                <target>Schließt die Unterseiten im Sitemap-Menu ein, auch wenn 'im Menu versteckt' aktiv ist. INFO: Hier ist nicht die `sitemap.xml` gemeint, sondern jenes im Credits-Menu.</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.customField">
+                <target>Spezialfeld</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.customField.descr">
+                <target>dieses Feld kann dazu verwendet werden, bestimmte Informationen zur aktuellen Seite zu speichern, die dann nach Belieben verwendet werden kann (Hinweis: hat ein Limit von 128 Zeichen)</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.rating.cur_value">
+                <target>AggregateRating: Aktueller Wert</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.rating.cur_value.descr">
+                <target>setzt den durchschnittlichen Wert der Bewertungen</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.rating.max_value">
+                <target>AggregateRating: Maximaler Wert</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.rating.max_value.descr">
+                <target>setzt den maximalen Wert der Bewertungen</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.rating.amount">
+                <target>AggregateRating: Anzahl der Bewertungen</target>
+            </trans-unit>
+            <trans-unit id="table.pages.columns.rating.amount.descr">
+                <target>setzt die Menge aller Bewertungen</target>
+            </trans-unit>
+
+            <trans-unit id="table.pages.palettes.misc">
+                <target>Verschiedenes</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,16 @@
+assets {
+    scripts {
+        #cat=scripts//b1; type=string; label= Path to 'scripts.json' file
+        json =
+        #cat=scripts//b2; type=string; label= Path to built resources
+        webPath =
+    }
+    styles {
+        #cat=styles//b1; type=string; label= Path to 'styles.json' file
+        json =
+        #cat=styles//b2; type=string; label= Path to built resources
+        webPath =
+    }
+}
+
+

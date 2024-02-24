@@ -1,0 +1,31 @@
+{
+  "name": "ch/ch-core",
+  "type": "typo3-cms-extension",
+  "description": "Chiochettibros Backend Extention",
+  "authors": [
+    {
+      "name": "Joel Fischnaller",
+      "email": "joel.fischnaller@gmail.com",
+      "role": "Web Developer"
+    }
+  ],
+  "license": "proprietary",
+  "require": {
+    "typo3/cms-core": "^12",
+    "typo3/cms-backend": "^12",
+    "typo3/cms-fluid": "^12"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "CH\\CHCore\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "ch_core"
+    }
+  }
+}
