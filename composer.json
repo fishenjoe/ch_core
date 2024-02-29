@@ -1,6 +1,6 @@
 {
   "name": "fishenjoe/ch_core",
-  "type": "typo3-cms-extension",
+  "type": "library",
   "description": "Chiochettibros Backend Extention",
   "authors": [
     {
