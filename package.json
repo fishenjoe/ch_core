@@ -1,12 +1,13 @@
 {
-  "name": "fishenjoe/ch_core",
-  "type": "typo3-cms-extension",
-  "description": "Chiochettibros Backend Extention",
+  "name": "ch_core",
+  "version": "1.0.0",
+  "description": "Chiochettibros Core System",
+  "homepage": "https://github.com/fishenjoe/ch_core",
   "authors": [
     {
       "name": "Joel Fischnaller",
       "email": "joel.fischnaller@gmail.com",
-      "role": "Web Developer"
+      "role": "Backend/Frontend Web Developer"
     }
   ],
   "license": "proprietary",
@@ -20,7 +21,12 @@
   },
   "autoload": {
     "psr-4": {
-      "CH\\CHCore\\": "Classes/"
+      "CH\\ChCore\\": "Classes/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ch\\ChCore\\Tests\\": "Tests/"
     }
   },
   "extra": {
@@ -29,3 +35,4 @@
     }
   }
 }
+\
